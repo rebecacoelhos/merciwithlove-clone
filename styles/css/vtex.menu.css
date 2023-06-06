@@ -1,0 +1,30 @@
+.styledLinkContent--titleAttended, .styledLinkContent--titleInstitucional, .styledLinkContent--titleHelp, .styledLinkContent--titleAtelie, .styledLinkContent--titleEnxoval {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.menuContainerNav--mobileFooter {
+    background: #72708b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-top: -15px;
+}
+
+.styledLinkContent--attendedtitle, .styledLinkContent--attendedmerci, .styledLinkContent--clothingtitle, .styledLinkContent--decorationtitle, .styledLinkContent--helptitle {
+    color: #fff;
+    font-weight: bold;
+}
+
+.styledLinkContent--enxovalitem {
+    font-weight: bold;
+}
+
+.styledLinkContent--enxovalitem:hover {
+    cursor: pointer;
+}
+
+.accordionIcon--attendedtitle, .accordionIcon--attendedmerci, .accordionIcon--clothingtitle, .accordionIcon--decorationtitle, .accordionIcon--helptitle {
+    color: #fff;
+}

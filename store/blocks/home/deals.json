@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://merciwithlove.vteximg.com.br/arquivos/ids/187044/minibanner_bolsas.jpg?v=637420421479230000"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://merciwithlove.vteximg.com.br/arquivos/ids/187045/minibanner_infantil.jpg?v=637420428447700000"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://merciwithlove.vteximg.com.br/arquivos/ids/187046/minibanner-acessorios copy.JPG.jpg?v=637420429334930000"
+    }
+  }
+}

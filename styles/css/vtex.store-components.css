@@ -1,0 +1,148 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0;
+  width: 100vw;
+  min-width: 100%;
+  padding: 3rem 0;
+  padding-left: 4rem;
+  background-image: url('https://merciwithlove.vtexassets.com/arquivos/ids/176439/Ready-to-go-Merci-With-Love%20(3).png?v=637045447182430000');
+}
+
+.infoCardImage--info-card-home {
+  display: none;
+}
+
+.infoCardHeadline--info-card-home, .infoCardSubhead--info-card-home {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.newsletter {
+  background: #cdcaca;
+  width: 100vw;
+  min-width: 100%;
+  max-width: 1528px;
+  margin-top: -9rem;
+  max-height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 92px;
+  border-top-right-radius: 92px;
+}
+
+.newsletter .label {
+  font-size: 22px;
+  color: #484747;
+}
+
+.newsletter .buttonContainer {
+  background: #484747;
+  padding-right: 2rem;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.footerLayout {
+  background: #72708b;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+  .label {
+     font-size: 40px;
+  }
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}

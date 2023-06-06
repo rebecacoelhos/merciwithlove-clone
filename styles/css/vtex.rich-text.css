@@ -1,0 +1,124 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #73708b;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: bold;
+}
+
+.container--followus {
+  color: #73708b;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+  opacity: 0.8;
+  margin-bottom: -1px;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question::before {
+  align-self: center;
+  margin-bottom: -10rem;
+  content: url(https://merciwithlove.vteximg.com.br/arquivos/merci-logo-marca.png?v=636847351626730000);
+}
+
+.container--question {
+  justify-content: center;
+  background: #ddd;
+  background-image: url(https://merci2019.vteximg.com.br/arquivos/merci-logo-mask.png);
+}
+
+.container--questionSub {
+  justify-content: center;
+  background: #ddd;
+  background-image: url(https://merci2019.vteximg.com.br/arquivos/merci-logo-mask.png);
+  padding-bottom: 10rem;
+  text-align: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 10rem;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 22px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--footer {
+  margin: 0 2rem;
+  font-size: 14px;
+  color: #73708b;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

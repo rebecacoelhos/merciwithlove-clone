@@ -1,0 +1,140 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "rich-text#products-title",
+      "flex-layout.row#deals",
+      "__fold__",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "image#marriage",
+      "info-card#home",
+      "rich-text#follow",
+      "rich-text#question",
+      "rich-text#about-us-sub",
+      "newsletter"
+    ]
+  },
+  "newsletter": {
+    "props": {
+      "label": "NEWSLETTER",
+      "placeholder": "Digite seu e-mail",
+      "submit": "SUBSCRIBE"
+    }
+  },
+  "rich-text#products-title": {
+    "props": {
+      "text": "**UM PRESENTE PARA CADA OCASIÃO**",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://merciwithlove.vteximg.com.br/arquivos/ids/203781/proj-banner-dia-das-mães-23-desktop.jpg?v=638175186774170000",
+          "mobileImage": "https://merciwithlove.vteximg.com.br/arquivos/ids/203782/proj-banner-dia-das-mães-23-mobile.png?v=638175187290200000"
+        },
+        {
+          "image": "https://merciwithlove.vteximg.com.br/arquivos/ids/203781/proj-banner-dia-das-mães-23-desktop.jpg?v=638175186774170000",
+          "mobileImage": "https://merciwithlove.vteximg.com.br/arquivos/ids/203718/banner-adele-pocket-corrente-mobile.png?v=638168308572900000"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "autoplay": {
+        "timeout": 5000
+      },
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "**PRODUTOS EM DESTAQUE**",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#follow": {
+    "props": {
+      "text": "**SIGA-NOS @merciwithlove**",
+      "blockClass": "followus"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "image#marriage": {
+    "props": {
+      "src": "https://merciwithlove.vteximg.com.br/arquivos/ids/171053/casamento-banner.png?v=636847326978870000",
+      "link": {
+        "attributeNofollow": false,
+        "newTab": false,
+        "url": "/sale/d"
+      }
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://merciwithlove.vteximg.com.br/arquivos/ids/176439/Ready-to-go-Merci-With-Love%20(3).png?v=637045447182430000",
+      "headline": "Merci ready to go",
+      "subhead": "Conheça os produtos que podem ser personalizados em 3 dias úteis e enviados para todo brasil.",
+      "callToActionText": "IR PARA PRONTA ENTREGA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "left"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**SOBRE A MARCA**",
+      "blockClass": "question"
+    }
+  },
+  "rich-text#about-us-sub": {
+    "props": {
+      "text": "A MerciWithLove é uma marca de artigos de couro 100% natural em que tudo pode ser personalizado de acordo com o desejo de cada cliente.",
+      "blockClass": "questionSub"
+    }
+  }
+}

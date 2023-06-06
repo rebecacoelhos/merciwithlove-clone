@@ -1,0 +1,25 @@
+.row--menu-row {
+  padding-right: 24px;
+  background: #72708b;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.socialNetworksContainer {
+  margin-left: 18px;
+  margin-top: 18px;
+}
+
+.socialNetworkImage {
+  background: #fff;
+  border-radius: 9999px;
+}
+
+.socialNetworksTitle {
+  margin-top: 35px;
+  margin-left: 24px;
+  font-weight: bold;
+  color: #fff;
+}

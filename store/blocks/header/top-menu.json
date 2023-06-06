@@ -1,0 +1,26 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "blockclass": "headerMenu"
+    },
+    "children": [
+      "menu-item#products",
+      "menu-item#about-us"
+    ]
+  },
+  "menu-item#products": {
+    "props": {
+      "id": "menu-item-products",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "products",
+        "text": "PRODUTOS PERSONALIZADOS"
+      }
+    }
+  }
+}
